@@ -21,3 +21,31 @@ git remote set-url origin https://github.com/coolboy-nitor/docker-project.git
 Then try:
 
 git push -u origin main
+
+**React & node based testapp is added**
+
+using command:
+install node and docker first
+app command : 
+
+"npx create-react-app testapp"
+
+testapp folder will be created :
+to run app:
+
+cd testapp
+"npm start"
+
+node_modules contains all the dependencies required to run our react app
+so we do not deploy this instead we delete this and use command :
+
+"node install"
+
+"node start"
+
+so this node_modules will get installed and application will be running.
+
+Now create a Dockerfile in the testapp directory.
+
+install docker extension.
+
